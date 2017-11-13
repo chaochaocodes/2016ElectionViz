@@ -94,6 +94,10 @@ button, article, footer, small {
 
 /*votebar CSS*/
 
+#voteBarSVG {
+  margin: 10px 0px 10px 0px;
+}
+
 .voteGrayBar,
 .hillaryVoteBar,
 .trumpVoteBar,
