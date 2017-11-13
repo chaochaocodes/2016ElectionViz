@@ -35,6 +35,29 @@ button, article, footer, small {
   #vizTitle { font-size: 1.5em; }
 }
 
+#play-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+#play-button {
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+
+#play-button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
 /*slider CSS based on Jane Pong's demo:*/
 /*https://bl.ocks.org/officeofjane/47d2b0bfeecfcb41d2212d06d095c763*/
 
@@ -67,4 +90,35 @@ button, article, footer, small {
   stroke: #000;
   stroke-opacity: 0.5;
   stroke-width: 1.25px;
+}
+
+/*votebar CSS*/
+
+.voteGrayBar,
+.hillaryVoteBar,
+.trumpVoteBar,
+.toWinNotchBar {
+  /*stroke-linecap: round;*/
+  stroke-width: 10px;
+}
+
+.voteGrayBar {
+  stroke: #000;
+  stroke-opacity: 0.3;
+}
+
+.hillaryVoteBar {
+  stroke: #1875BC;
+}
+
+.trumpVoteBar {
+  stroke: red;
+}
+
+.toWinNotchBar {
+  stroke: white;
+}
+
+.votesNeededToWinLabel {
+  opacity: 0.5;
 }
