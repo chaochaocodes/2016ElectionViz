@@ -51,6 +51,7 @@ button, article, footer, small {
   line-height: 30px;
   text-align: center;
   color: white;
+  user-select: none;
 }
 
 #play-button:hover {
@@ -102,7 +103,6 @@ button, article, footer, small {
 .hillaryVoteBar,
 .trumpVoteBar,
 .toWinNotchBar {
-  /*stroke-linecap: round;*/
   stroke-width: 10px;
 }
 
