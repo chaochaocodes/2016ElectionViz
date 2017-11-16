@@ -137,3 +137,16 @@ html {
 .statesGroups:hover path {
   opacity: 0.7;
 }
+
+.bottomLink {
+  cursor: pointer;
+}
+
+.bottomLink:hover {
+  fill: blue;
+  text-decoration: underline;
+}
+
+tspan.bottomBoldLabel {
+  font-weight: bold;
+}
