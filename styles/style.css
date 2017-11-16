@@ -20,6 +20,10 @@ button, article, footer, small {
 
 /* --- CUSTOM CSS BELOW --- */
 
+html {
+  background-color: white;
+}
+
 #vizTitle, #vizSubTitle {
   width: 100%;
   text-align: center;
