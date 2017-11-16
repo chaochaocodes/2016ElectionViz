@@ -20,9 +20,12 @@ button, article, footer, small {
 
 /* --- CUSTOM CSS BELOW --- */
 
-#vizTitle {
+#vizTitle, #vizSubTitle {
   width: 100%;
   text-align: center;
+}
+
+#vizTitle {
   font-size: 3em;
   margin-top: 20px;
 }
