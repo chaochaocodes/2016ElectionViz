@@ -13,7 +13,7 @@ The timeline can be paused at any point, and users can drag the slider to go to 
 ## Other Data Viz Work
 See my other work [here][vizp-link].
 
-[live-link]: https://jclin2013.github.io/2016ElectionViz/
+[live-link]: https://jon-lin.github.io/2016ElectionViz/
 [ap-link]: https://blog.ap.org/behind-the-news/calling-the-presidential-race-state-by-state
 [jane-link]: https://bl.ocks.org/officeofjane/47d2b0bfeecfcb41d2212d06d095c763
-[vizp-link]: https://jclin2013.github.io/DataVizPortfolio/
+[vizp-link]: https://jon-lin.github.io/DataVizPortfolio/
